@@ -4,13 +4,8 @@ namespace Tests
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
-        [Test]
-        public void Test1()
+        [TestCase("x.")]
+        public void Test2(string message)
         {
             Assert.Pass();
         }
