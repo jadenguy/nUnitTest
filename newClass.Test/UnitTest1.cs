@@ -2,10 +2,12 @@ using NUnit.Framework;
 
 namespace Tests
 {
-    public class Tests
+    public class Testing
     {
+        [Test]
         [TestCase("x.")]
-        public void Test2(string message)
+        [TestCase("y.")]
+        public void Test1(string message)
         {
             Assert.Pass();
         }
